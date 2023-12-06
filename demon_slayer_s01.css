@@ -1,0 +1,332 @@
+body {
+    background: rgb(42 42 42);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  #menu-button{
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 12px;
+}
+
+.navbar {
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+    gap: 70px;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #ff4500;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: auto;
+
+}
+
+#search-bar {
+    border: none;
+    flex: 1;
+    border-left: 2px solid #ff4500;
+    outline: none;
+    background: transparent;
+    padding: 12px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+#search-submit {
+    border: none;
+    outline: none;
+    background: #ff4500;
+    color: #fff;
+    width: 80px;
+    height: 43px;
+    font-size: 16px;
+    cursor: pointer;
+   border-radius: 30px;
+}
+
+#search-submit:hover{
+    background-color: #fd7949;
+}
+
+
+#login-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#login-button:hover{
+    background-color: #fd7949;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    font-size: 20px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #fd7949;
+    opacity: 0.8;
+}
+
+.container{
+    padding: 15px;
+    margin-left: -17px;
+}
+
+.main-player{
+    padding: 12px;
+    margin-top: 7px;
+}
+
+.main-player-content-container{
+    padding-left: 12px;
+    display: flex;
+}
+
+.epi-no-pt{
+    width: 500px;
+}
+
+.epi-no-pt h2{
+    font-size: 50px;
+    color: #ff4500;
+}
+
+.epi-descript-pt{
+    width: 100%;
+}
+
+.epi-descript-pt h4{
+    font-size: 30px;
+    margin-bottom: 4px;
+    text-decoration: underline;
+}
+
+.epi-descript-pt p{
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.more-epi-title{
+    padding-left: 12px;
+}
+
+
+#s01{
+    padding-left: 12px;
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+
+
+.s01 img{
+    padding: 5px;
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+    border:2px solid rgb(94, 93, 93);
+    display: block;
+    
+}
+
+.s02 img{
+    padding: 5px;
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+    border:2px solid rgb(94, 93, 93);
+}
+
+.s03 img{
+    padding: 5px;
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+    border: 2px solid rgb(94, 93, 93);
+}
+
+#snno{
+    position: relative;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: -5px;
+    font-weight: bold;
+    
+}
+
+#snnods{
+   position: relative;
+   text-align: justify;
+   max-width: 310px;
+   margin-top: 14px;
+   margin-bottom: 10px;
+   line-height: 25px;
+}
+
+#snwatch {
+    position: relative;
+    margin-top: -14px;
+    left: 80px;
+    border-radius: 40px;
+    margin-right: 15px;
+    height: 40px;
+    width: 150px;
+    bottom: 50px;
+    border: 2px solid #ff4500;
+    background-color: #ff4500;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    top: 14px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+#snwatch:hover{
+    transform: translateY(-10px);
+    background-color: #fd7949;
+}
+
+.seasons1 {
+    display: flex;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 23px;
+    overflow: hidden; 
+  }
+  
+  .s01,
+  .s02,
+  .s03,
+  .s04 {
+    flex: 1 1 calc(50% - 10px);
+    margin: 5px;
+    max-width: 350px;
+    
+  }
+
+
+.s01, .s02, .s03 {
+position: relative;
+}
+
+.img-overlay {
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;    
+top: 35%;
+left: 48%;
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: opacity 0.25s;
+}
+
+
+.img-overlay .blur-play-btn i{
+position: relative;
+font-size: 70px;
+bottom: 10px;
+color: #ff4500;
+}
+
+.s01:hover .img-overlay {
+backdrop-filter: blur(4px);
+opacity: 1;
+}
+
+
+.snwatch-btn {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 40px;
+height: 40px;
+width: 150px;
+background-color: #ff4500;
+color: #fff;
+transition: all 0.2s ease-in-out;
+opacity: 0;
+}
+
+.s01:hover .snwatch-btn {
+opacity: 1;
+transform: translateY(-10px);
+}
+
+.s02 {
+position: relative;
+}
+
+.s02:hover .img-overlay {
+backdrop-filter: blur(4px);
+opacity: 1;
+}
+
+.s03:hover .img-overlay {
+backdrop-filter: blur(4px);
+opacity: 1;
+}
+
+#ss01{
+margin-top:  50px; ;
+}
+
+
+.view-more-btn {
+margin-left: 38%;
+margin-top: -30px;
+padding-bottom: 24px;
+}

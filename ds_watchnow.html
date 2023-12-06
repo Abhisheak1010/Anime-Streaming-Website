@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+   <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <!-- end of Bootsrap -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS_Watch Now</title>
+    <link rel="stylesheet" href="ds_watchnow.css">
+</head>
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="aniweb.html">Home</a>
+            <a href="all.html">All</a>
+            <a href="#" style="color: #ff4500;">Watch Now</a> 
+            <a href="new.html">New</a>
+            <a href="movies.html">Movies</a>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()"><i class='bx bx-arrow-to-top'></i></button>
+     
+    <div class="total">
+        <div class="imgcnttotal">
+        <div class="image-sec">
+            <img src="images/demon_slayer/demon2.jpg" alt="">
+        </div>
+
+        <div class="content-total">
+            <div class="content">
+                <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+                <h2>Original title: Kimetsu no Yaiba</h2>
+                <h3>TV Series
+                    2019–
+                    TV-14
+                    24m
+                    </h3>
+                    <h5>IMDB RATING:</h5>
+                    <h5>8.6/10</h5>
+                <p>
+                    After Tanjirou Kamado's family is massacred by demons and
+                     his sister Nezuko turned into one, he vows vengeance. Joining
+                      the enigmatic Demon Slayer Corps, Tanjirou battles 
+                      flesh-eating demons, driven by rage and a determination 
+                      to save Nezuko from her demonic fate. In this quest, he confronts 
+                      the darkness that plagues his world to protect his sister and avenge 
+                      his family's tragic demise.</p>
+            </div>
+           
+        </div>
+    </div>
+        <!-- NO OF SEASONS SECTION -->
+        <div class="s-head">
+            <h3 id="s01">Browse Seasons</h3>
+        </div>
+
+
+         <div class="seasons" style="margin-bottom: 15px;">
+            <div class="s01">
+                <img src="images/demon1.jpg">
+                <p id="snno">Season 1</p>
+                <input type="submit" value="Watch Now" id="snwatch" onclick="move1()">
+            </div>
+
+            <div class="s02">
+                <img src="images/demon_slayer/demon10.jpg">
+                <p id="snno">Season 2</p>
+                <input type="submit" value="Watch Now" id="snwatch" onclick="move2()">
+            </div>
+
+            <div class="s02">
+                <img src="images/demon3.webp">
+                <p id="snno">Season 3</p>
+                <input type="submit" value="Watch Now" id="snwatch" onclick="move3()">
+            </div>
+
+            <div class="s03">
+                <img src="images/demon4.webp">
+                <p id="snno">Season 4</p>
+                <input type="submit" value="Watch Now" id="snwatch" onclick="move4()">
+            </div>           
+         </div>
+
+        </div>
+    </div>
+     <!--END OF NO OF SEASONS SECTION -->
+    <!-- SEASON 1 STARTS -->
+    <!-- PT01 -->        
+    <div class="s1-head" id="season 1">
+        <h3 id="s01">Season 1</h3>
+    </div>
+
+<div class="borderr">    
+  <!-- PT01 -->
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon1.jpg">
+        <p id="snno">Episode 1</p>
+</div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon4.jpg">
+        <p id="snno">Episode 2</p>
+       </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon12.jpg">
+        <p id="snno">Episode 3</p>
+        </div> 
+    
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon3.jpg">
+        <p id="snno">Episode 4</p>
+        </div> 
+ </div>
+   <!-- PTO1 end -->
+    <!-- PT02 -->
+    <div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon5.jpg">
+        <p id="snno">Episode 5</p>
+        </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon9.jpg">
+        <p id="snno">Episode 6</p>
+       </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon15.jpg">
+        <p id="snno">Episode 7</p>
+       </div> 
+    
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon16.jpg">
+        <p id="snno">Episode 8</p>
+       </div> 
+
+ </div>
+   <!-- PT02 end -->
+   <div class="view-more-btn">
+    <input type="submit" value="View all" id="snwatch" onclick="openseas1()">
+</div>
+</div> 
+
+</div>
+    <!-- END OF SEASON 1 -->
+<!-- SEASON 2 START -->
+<!-- PT01 -->
+<div class="s1-head" id="season 2">
+    <h3 id="ss01">Season 2</h3>
+</div>
+
+<div class="borderr">
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon2.jpg">
+        <p id="snno">Episode 1</p>
+    </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon13.jpg">
+        <p id="snno">Episode 2</p>
+    </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon6.jpg">
+        <p id="snno">Episode 3</p>
+    </div> 
+
+     <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon8.jpg">
+        <p id="snno">Episode 4</p>
+    </div> 
+
+ </div>
+ <!-- PT01 end -->
+<!-- PT02 -->
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/demon7.jpg">
+        <p id="snno">Episode 5</p>
+    </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s2e6.png">
+        <p id="snno">Episode 6</p>
+    </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s2e7.png">
+        <p id="snno">Episode 7</p>
+    </div>  
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s2e8.png">
+        <p id="snno">Episode 8</p>
+    </div> 
+
+ </div>
+   <!-- PT02 end -->
+   <div class="view-more-btn">
+    <input type="submit" value="View all" id="snwatch"  onclick="openseas1()">
+</div>
+</div>
+
+</div>
+<!-- END OF SEASON 2 -->
+<!-- SEASON 3 START -->
+<!-- PT01 -->
+<div class="s1-head"  id="season 3">
+    <h3 id="ss01">Season 3</h3>
+
+</div>
+
+<div class="borderr">
+
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e1.png">
+        <p id="snno">Episode 1</p>
+    </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e2.png">
+        <p id="snno">Episode 2</p>
+    </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e3.png">
+        <p id="snno">Episode 3</p>
+    </div>  
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e4.png">
+        <p id="snno">Episode 4</p>
+    </div> 
+ </div>
+ <!-- PT01 end -->
+<!-- PT02 -->
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e5.png">
+        <p id="snno">Episode 5</p>
+    </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e6.png">
+        <p id="snno">Episode 6</p>
+    </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e7.png">
+        <p id="snno">Episode 7</p>
+    </div> 
+    
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s3e8.png">
+        <p id="snno">Episode 8</p>
+    </div> 
+
+ </div>
+   <!-- PT02 end -->
+   <div class="view-more-btn">
+    <input type="submit" value="View all" id="snwatch"  onclick="openseas1()">
+</div>
+</div>
+</div>
+<!-- END OF SEASON 3 -->
+<!-- SEASON 4 START -->
+<!-- PT01 -->
+<div class="s1-head"  id="season 4">
+    <h3 id="ss01">Season 4</h3>
+
+</div>
+
+<div class="borderr">
+
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e1.png">
+        <p id="snno">Episode 1</p>
+    </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e2.png">
+        <p id="snno">Episode 2</p>
+    </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e3.png">
+        <p id="snno">Episode 3</p>
+    </div>  
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e4.png">
+        <p id="snno">Episode 4</p>
+    </div> 
+ </div>
+ <!-- PT01 end -->
+<!-- PT02 -->
+<div class="seasons1" style="margin-bottom: 15px;">
+    <div class="s01">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e5.png">
+        <p id="snno">Episode 5</p>
+    </div>
+
+    <div class="s02">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e6.png">
+        <p id="snno">Episode 6</p>
+    </div>
+
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e7.png">
+        <p id="snno">Episode 7</p>
+    </div> 
+    
+    <div class="s03">
+        <div class="img-overlay">
+            <a href="demon_slayer_s01.html" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical' ></i></a>
+        </div>
+        <img src="images/demon_slayer/s4e8.png">
+        <p id="snno">Episode 8</p>
+    </div> 
+
+ </div>
+   <!-- PT02 end -->
+   <div class="view-more-btn">
+    <input type="submit" value="View all" id="snwatch"  onclick="openseas1()">
+</div>
+</div>
+</div>
+<!-- END OF SEASON 4 -->
+    <script>
+        function  move1(){
+            var element = document.getElementById("season 1");
+        element.scrollIntoView({ behavior: "smooth" });
+        }
+
+        function  move2(){
+            var element = document.getElementById("season 2");
+        element.scrollIntoView({ behavior: "smooth" });
+        }
+
+        function  move3(){
+            var element = document.getElementById("season 3");
+        element.scrollIntoView({ behavior: "smooth" });
+        }
+
+        function  move4(){
+            var element = document.getElementById("season 4");
+        element.scrollIntoView({ behavior: "smooth" });
+        }
+
+    //  Scroll to top 
+
+        document.addEventListener("DOMContentLoaded", function () {
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", function () {
+        // Show button when scrolling down
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    });
+});
+
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+function scrollToTop() {
+    // Scroll to the top smoothly
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}   
+
+
+   function openseas1(){
+    window.location.href = "demon_slayer_s01.html";
+   }
+      </script>
+
+<footer>
+    <h3>all copyrights reserved @ abhisheak</h3>
+</footer>
+      
+</body>
+</html>

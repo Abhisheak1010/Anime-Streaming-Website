@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUJUTSU KAISEN 0</title>
+    <link rel="stylesheet" href="your_name_stream_page.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="aniweb.html">Home</a>
+            <a href="all.html">All</a>
+            <a href="new.html">New</a>
+            <a href="movies.html">Movies</a>
+            <a href="#" style="color: #ff4500;">Watch Movies</a> 
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+
+     <!-- Scroll to top button -->
+     <button id="scrollToTopBtn" onclick="scrollToTop()"><i class='bx bx-arrow-to-top'></i></button>
+
+    <div class="main-container">
+        <div class="main-player">
+            <video src="videos/Demon Slayer_ Kimetsu no Yaiba Trailer 1 (1080p).mp4" id="mainVideo" width="100%" height="450px" controls></video>
+        </div>
+        <div class="descript-container">
+            <div class="descri">
+                <h1>Jujutsu Kaisen 0</h1>
+                <h5 id="original-title">Original title: Gekijouban Jujutsu Kaisen 0</h5>
+                <h5 id="year-line">2021 . PG-13 . 1h 52 min</h5>
+                <h6 id="imbd">IMDB : 7.8/10</h6>
+                <p id="des">Yuuta Okkotsu is haunted. Ever since his childhood friend Rika died in a traffic accident, her ghost has stuck with him. But her spirit does not appear as the sweet girl Yuuta once knew. Instead, she manifests as a monstrous and powerful entity who fiercely protects him. Unable to control Rika's violent behavior, Yuuta is helpless to stop the bloodshed that follows from her brutal vengeance.As a result, when apprehended by "Jujutsu" sorcerers--the secret guardians of the world, trained to combat forces like Rika--Yuuta wishes to be completely isolated so that no one else can get hurt. Yet his apprehender, the master sorcerer Satoru Gojou, has different plans for him: he will join Jujutsu High School and learn to control Rika in order to help people.</p>
+            </div>
+        </div>
+
+        <div class="screenshot-container">
+            <h1 style="color: #ff4500; text-align: center;">Screenshots</h1>
+            <div class="screenshot-part">
+                <div class="div1">
+                    <img src="images/jjk 0-ss1.jpg">
+                </div>
+
+                <div class="div1">
+                    <img src="images/jjk 0-ss2.jpg">
+                </div>
+
+                <div class="div1">
+                    <img src="images/jjk 0-ss3.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="share-container">
+            <p id="share">Share Us</p>
+            <p id="support">Support Us</p>
+        </div>
+    </div>
+</body>
+
+<script>
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        window.addEventListener("scroll", function () {
+            // Show button when scrolling down
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        });
+    
+        function scrollToTop() {
+            // Scroll to the top smoothly
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+</script>
+</html>

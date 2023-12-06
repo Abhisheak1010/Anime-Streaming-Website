@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGDOMS OF RUIN</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="demon_slayer_s01.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="aniweb.html">Home</a>
+            <a href="all.html">All</a>
+            <a href="#" style="color: #ff4500;">Watch Now</a>
+            <a href="new.html">New</a>
+            <a href="movies.html">Movies</a>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+    <div class="container">
+
+        <!-- Scroll to top button -->
+        <button id="scrollToTopBtn" onclick="scrollToTop()"><i class='bx bx-arrow-to-top'></i></button>
+
+        <div class="main-player">
+            <video id="mainVideo" width="100%" height="450px" controls></video>
+        </div>
+
+        <div class="main-player-content-container">
+            <div class="epi-descript-pt">
+                <h4 style="color: #ff4500;">KINGDOMS OF RUIN <br>Description:</h4>
+                <p>For ages, humanity flourished through the power of magic, a gift from witches to aid mankind. But times have changed. The scientific Gear Expansion has made both magic and witches obsolete. In order to liberate humanity from the blight of magic, the mighty Redia Empire began a ruthless hunt to exterminate all witches. Adonis was only a boy when the hunt began, apprentice to a witch he dearly loved. When she perishes at the hands of the empire, Adonis vows revenge. By this furious wizard's power, blood will flow!</p>
+            </div>
+        </div>
+
+        <div class="more-epi-container">
+            <div class="more-epi-title">
+                <h1>Browse all episodes</h1>
+            </div>
+
+            <div class="s1-head" id="season 1">
+                <h3 id="s01" style="color: #ff4500;text-decoration: underline;">Season 1</h3>
+            </div>
+
+            <div class="borderr">
+                <!-- PT01 -->
+                <div class="seasons1" style="margin-bottom: -25px;">
+                    <div class="s01">
+                        <div class="img-overlay" onclick="changeVideo('videos/Demon Slayer_ Kimetsu no Yaiba Trailer 1 (1080p).mp4', this)">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/Screenshot 2023-11-28 135025.png">
+                        <p id="snno">1.And So, Our Story Begins</p>
+                        <p id="snnods">Rapid explosion of human technology has caused humanity to grow to fear and resent the divinely granted supernatural powers of witches. The witch Chloe and her apprentice, Adonis find themselves caught in the crosshairs of the Redia Empire</p>
+                    </div>
+
+                    <div class="s02">
+                        <div class="img-overlay" onclick="changeVideo('videos/Demon_Slayer_Kimetsu_no_Yaiba_Entertainment_District_Ar_Jd_B6ox3qGc_137.mp4', this)">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king2.png">
+                        <p id="snno">2.Heavenly Fire</p>
+                        <p id="snnods">Adonis uses his newfound freedom to wreak havoc on the city of New Nightmare. His long practiced written style summoning magic tear through the Radian citizens while Doroka races to meet up with him.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king3.png">
+                        <p id="snno">3.A Gentle Death</p>
+                        <p id="snnods">The various government institutions of Redia scramble to stop Adonis' rampage. When they go to activate the Magic Photon Suppression Device, Theta, the director of the National Science Agency, shares previously hidden information</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king4.png">
+                        <p id="snno">4.The Nation Of Witches</p>
+                        <p id="snnods">Anna successfully uses her magic to deceive the Redia Empire and extract Adonis. Adonis witnesses the post-war state of the witches' society.</p>
+                    </div>
+                </div>
+                <!-- PTO1 end -->
+
+                <!-- PT02 -->
+                <div class="seasons1" style="margin-bottom: -25px;">
+                    <div class="s01">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king5.png">
+                        <p id="snno">5.Joy To The World</p>
+                        <p id="snnods">Adonis changes his intentions halfway through the resurrection ritual and brings back Doroka instead of Chloe but Lunamilia is suddenly attacked by the National Security Bureau.</p>
+                    </div>
+
+                    <div class="s02">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king6.png">
+                        <p id="snno">6.The Witch Doroka</p>
+                        <p id="snnods">Doroka finally calls upon her magical powers in an attempt to put an end to the carnage on Lunamilia. As the battle on the moon comes to a close, we discover who's truly in control of the Redia Empire.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king7.png">
+                        <p id="snno">7.Stand by him. Stand by her.</p>
+                        <p id="snnods">Adonis and Doroka find themselves on the planet's surface once again. Still reeling from the carnage on the moon, they encounter some wasteland vagrants who take them in. However, there may be more to these vagrants than expected.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="New-Screenshots/king8.png">
+                        <p id="snno">8.Coronation</p>
+                        <p id="snnods">With Goethe and the witches out of her way, Dorothea ascends to the imperial throne. As she uses her magic to consolidate her power, Shirousagi searches the wastelands for Adonis.</p>
+                    </div>
+                </div>
+                <!-- PT02 end -->
+                <!-- END OF SEASON 1 -->
+            </div>
+
+            <!-- PT03 -->
+            <div class="seasons1" style="margin-bottom: -25px;">
+                <div class="s01">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon1.jpg">
+                    <p id="snno">9.Temari Demon and Arrow Demon</p>
+                    <p id="snnods">While taking refuge inside a home concealed by Yushiro's spell, Tanjiro protects those inside from demons sent by Muzan Kibutsuji.</p>
+                </div>
+
+                <div class="s02">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon3.webp">
+                    <p id="snno">10.Together Forever</p>
+                    <p id="snnods">Nezuko goes toe-to-toe with Susamaru and her deadly volley of temari balls, but Tamayo intervenes with her own spell before the battle intensifies.</p>
+                </div>
+
+                <div class="s03">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon4.webp">
+                    <p id="snno">11.Tsuzumi Mansion</p>
+                    <p id="snnods">Tanjiro travels south-southeast for his next mission. On the way, he encounters fellow swordsman and Final Selection survivor, Zenitsu Agatsuma.</p>
+                </div>
+
+                <div class="s03">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon4.webp">
+                    <p id="snno">12.The Boar and Zenitsu Sleeps</p>
+                    <p id="snnods">As Zenitsu cowers in fear inside a mysterious rotating house, Tanjiro faces a drum-beating demon and an odd sword-wielding man wearing a boar mask.</p>
+                </div>
+            </div>
+            <!-- PT03 end -->
+        </div>
+
+        <div class="view-more-btn">
+            <input type="submit" value="Back" id="snwatch" onclick="backtoseasons()">
+        </div>
+    </div>
+    </div>
+    </div>
+    </body>
+
+    <script>
+        var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        window.addEventListener("scroll", function () {
+            // Show button when scrolling down
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        });
+    
+        function scrollToTop() {
+            // Scroll to the top smoothly
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    
+        var mainVideo = document.getElementById("mainVideo");
+    
+        function changeVideo(videoPath, episodeTitle, element) {
+            mainVideo.src = videoPath;
+            mainVideo.load();
+            mainVideo.play();
+    
+            var allImgOverlays = document.querySelectorAll(".img-overlay");
+            allImgOverlays.forEach(imgOverlay => imgOverlay.classList.remove("selected"));
+    
+            element.classList.add("selected");
+    
+            document.getElementById("episodeTitle").innerHTML = `<h2>${episodeTitle}</h2>`;
+        }
+
+        function backtoseasons(){
+            window.location.href = "new.html";
+        }
+    </script>
+    
+
+</html>
+
+</body>
+</html>

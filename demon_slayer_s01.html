@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S01-DEMON-SLAYER</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="demon_slayer_s01.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="aniweb.html">Home</a>
+            <a href="all.html">All</a>
+            <a href="#" style="color: #ff4500;">Watch Now</a>
+            <a href="new.html">New</a>
+            <a href="movies.html">Movies</a>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+    <div class="container">
+
+        <!-- Scroll to top button -->
+        <button id="scrollToTopBtn" onclick="scrollToTop()"><i class='bx bx-arrow-to-top'></i></button>
+
+        <div class="main-player">
+            <video id="mainVideo" width="100%" height="450px" controls></video>
+        </div>
+
+        <div class="main-player-content-container">
+            <div class="epi-descript-pt">
+                <h4 style="color: #ff4500;">DEMON SLAYER <br>Description:</h4>
+                <p>Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjoy a relatively peaceful and happy life. One day, Tanjirou decides to go down to the local village to make a little money selling charcoal. On his way back, night falls, forcing Tanjirou to take shelter in the house of a strange man, who warns him of the existence of flesh-eating demons that lurk in the woods at night.
+
+                    When he finally arrives back home the next day, he is met with a horrifying sight—his whole family has been slaughtered. Worse still, the sole survivor is his sister Nezuko, who has been turned into a bloodthirsty demon. Consumed by rage and hatred, Tanjirou swears to avenge his family and stay by his only remaining sibling. Alongside the mysterious group calling themselves the Demon Slayer Corps, Tanjirou will do whatever it takes to slay the demons and protect the remnants of his beloved sister's humanity.</p>
+            </div>
+        </div>
+
+        <div class="more-epi-container">
+            <div class="more-epi-title">
+                <h1>Browse all episodes</h1>
+            </div>
+
+            <div class="s1-head" id="season 1">
+                <h3 id="s01" style="color: #ff4500;text-decoration: underline;">Season 1</h3>
+            </div>
+
+            <div class="borderr">
+                <!-- PT01 -->
+                <div class="seasons1" style="margin-bottom: -25px;">
+                    <div class="s01">
+                        <div class="img-overlay" onclick="changeVideo('videos/Demon Slayer_ Kimetsu no Yaiba Trailer 1 (1080p).mp4', this)">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon1.jpg">
+                        <p id="snno">1.Cruelty</p>
+                        <p id="snnods">After selling charcoal in town, Tanjiro returns home to find his whole family dead. Only his sister Nezuko has survived -- but she’s changed.</p>
+                    </div>
+
+                    <div class="s02">
+                        <div class="img-overlay" onclick="changeVideo('videos/Demon_Slayer_Kimetsu_no_Yaiba_Entertainment_District_Ar_Jd_B6ox3qGc_137.mp4', this)">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon4.jpg">
+                        <p id="snno">2.Trainer Sakonji Urokodaki</p>
+                        <p id="snnods">Tanjiro departs for the mountains with Nezuko in tow. En route, he smells blood coming from inside a temple, where he stumbles upon a gruesome scene.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon12.jpg">
+                        <p id="snno">3.Sabito and Makomo</p>
+                        <p id="snnods">Under Sakonji, Tanjiro trains to become a member of the Demon Slayer Corps. But before he can join, he'll have to qualify for the Final Selection.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon3.jpg">
+                        <p id="snno">4.Final Selection</p>
+                        <p id="snnods">The Final Selection begins. Tanjiro and the other trainees must survive for seven days among demons trapped alive by Demon Slayer swordsmen.</p>
+                    </div>
+                </div>
+                <!-- PTO1 end -->
+
+                <!-- PT02 -->
+                <div class="seasons1" style="margin-bottom: -25px;">
+                    <div class="s01">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon5.jpg">
+                        <p id="snno">5.My Own Steel</p>
+                        <p id="snnods">Tanjiro is among the four survivors of the Final Selection. After acquiring a new sword, he receives orders for his first mission as a Demon Slayer.</p>
+                    </div>
+
+                    <div class="s02">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon9.jpg">
+                        <p id="snno">6.Swordsman And Demon</p>
+                        <p id="snnods">For his first mission, Tanjiro heads northwest to a village where he meets Kazumi, whose lover has disappeared without a trace.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon15.jpg">
+                        <p id="snno">7.Muzan Kibutsuji</p>
+                        <p id="snnods">Tanjiro dives into a swamp realm to confront a swamp demon who's split into three, but the demon refuses to tell him anything about Muzan Kibutsuji.</p>
+                    </div>
+
+                    <div class="s03">
+                        <div class="img-overlay">
+                            <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                        </div>
+                        <img src="images/demon_slayer/demon16.jpg">
+                        <p id="snno">8.The Smell of Enchanting Blood</p>
+                        <p id="snnods">For his next mission, Tanjiro heads to the bustling area of Asakusa, Tokyo to find the demon hiding among the crowds.</p>
+                    </div>
+                </div>
+                <!-- PT02 end -->
+            </div>
+            <!-- PT03 -->
+            <div class="seasons1" style="margin-bottom: -25px;">
+                <div class="s01">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon_slayer/s1e9.png">
+                    <p id="snno">9.Temari Demon and Arrow Demon</p>
+                    <p id="snnods">While taking refuge inside a home concealed by Yushiro's spell, Tanjiro protects those inside from demons sent by Muzan Kibutsuji.</p>
+                </div>
+
+                <div class="s02">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon_slayer/s1e10.png">
+                    <p id="snno">10.Together Forever</p>
+                    <p id="snnods">Nezuko goes toe-to-toe with Susamaru and her deadly volley of temari balls, but Tamayo intervenes with her own spell before the battle intensifies.</p>
+                </div>
+
+                <div class="s03">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon_slayer/s1e11.png">
+                    <p id="snno">11.Tsuzumi Mansion</p>
+                    <p id="snnods">Tanjiro travels south-southeast for his next mission. On the way, he encounters fellow swordsman and Final Selection survivor, Zenitsu Agatsuma.</p>
+                </div>
+
+                <div class="s03">
+                    <div class="img-overlay">
+                        <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                    </div>
+                    <img src="images/demon_slayer/s1e12.png">
+                    <p id="snno">12.The Boar and Zenitsu Sleeps</p>
+                    <p id="snnods">As Zenitsu cowers in fear inside a mysterious rotating house, Tanjiro faces a drum-beating demon and an odd sword-wielding man wearing a boar mask.</p>
+                </div>
+            </div>
+            <!-- PT03 end -->
+        </div>
+
+        <!-- PT04 -->
+        <div class="seasons1" style="margin-bottom: -25px;">
+            <div class="s01">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e13.png">
+                <p id="snno">13.Something More Important</p>
+                <p id="snnods">With the house turning with each beat of the drum, an injured Tanjiro struggles against Kyogai’s overwhelming attack.</p>
+            </div>
+
+            <div class="s02">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e14.png">
+                <p id="snno">14.The House with the Wisteria</p>
+                <p id="snnods">Now outside the cursed drum house, Tanjiro finds a beaten and bloody Zenitsu, and is confronted by the belligerent man wearing a boar's head mask.</p>
+            </div>
+
+            <div class="s03">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e15.png">
+                <p id="snno">15.Mount Natagumo</p>
+                <p id="snnods">Tanjiro travels north-northeast with Inosuke and Zenitsu on their next mission. They reach Natagumo Mountain, where a spider horde resides.</p>
+            </div>
+
+            <div class="s03">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e16.png">
+                <p id="snno">16.Letting Someone Else Go First</p>
+                <p id="snnods">With their fellow Demon Slayers under the demon spider's control, Tanjiro and Inosuke must figure a way to subdue their comrades without harming them.</p>
+            </div>
+        </div>
+        <!-- PT04 end -->
+        <!-- PT05 -->
+        <div class="seasons1" style="margin-bottom: -25px;">
+            <div class="s01">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e17.png">
+                <p id="snno">17.You Must Master a Single Thing</p>
+                <p id="snnods">After facing the mother spider, Tanjiro learns of a demon under Muzan Kibutsuji's direct command who may hold the key to turning Nezuko back to human.</p>
+            </div>
+
+            <div class="s02">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e18.png">
+                <p id="snno">18. A Forged Bond</p>
+                <p id="snnods">While taking on the enraged father spider demon with Inosuke, Tanjiro is flung far away, where he confronts the spider demon, Rui.</p>
+            </div>
+
+            <div class="s03">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e19.png">
+                <p id="snno">19.Hinokami</p>
+                <p id="snnods">Giyu Tomioka, a top-ranked swordsman of the Demon Killing Corps, arrives. Outclassed and in awe of his skills, Inosuke challenges him to a duel.</p>
+            </div>
+
+            <div class="s03">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e20.png">
+                <p id="snno">20.Pretend Family</p>
+                <p id="snnods">Tanjiro prepares for the worst when faced with Rui’s spell. But then, the memory of his father dancing the Kagura inspires him to unleash a new move.</p>
+            </div>
+        </div>
+        <!-- PT05 end -->
+
+        <!-- PT06 -->
+        <div class="seasons1" style="margin-bottom: -25px;">
+            <div class="s01">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e21.png">
+                <p id="snno">21.Against Corps Rules</p>
+                <p id="snnods">Seeing a heavily injured Tanjiro still try to defend Nezuko, Rui is reminded of the one thing he craves and doesn’t have: true family connection.</p>
+            </div>
+
+            <div class="s02">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e22.png">
+                <p id="snno">22.Master of the Mansion</p>
+                <p id="snnods">Tanjiro is dragged before a gathering of the Hashira, the most powerful of Demon Slayer Corps swordsmen, to face judgment.</p>
+            </div>
+
+            <div class="s03">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e23.png">
+                <p id="snno">23.Hashira Meeting</p>
+                <p id="snnods">Despite Ubuyashiki's decision to accept Tanjiro and Nezuko into the Corps, Sanemi tries to draw out Nezuko's demonic bloodthirst.</p>
+            </div>
+
+            <div class="s03">
+                <div class="img-overlay">
+                    <a href="#" class="blur-play-btn"><i class='bx bx-play-circle bx-flip-vertical'></i></a>
+                </div>
+                <img src="images/demon_slayer/s1e24.png">
+                <p id="snno">24.Rehabilitation Training</p>
+                <p id="snnods">Tanjiro and other Corps members receive treatment at Shinobu's estate. Two weeks later, he and Inosuke begin training to rebuild their strength.</p>
+            </div>
+        </div>
+        <!-- PT06 end -->
+
+        <div class="view-more-btn">
+            <input type="submit" value="Back to Seasons" id="snwatch" onclick="backtoseasons()">
+        </div>
+    </div>
+    </div>
+    </div>
+    </body>
+
+    <script>
+        var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        window.addEventListener("scroll", function () {
+            // Show button when scrolling down
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        });
+    
+        function scrollToTop() {
+            // Scroll to the top smoothly
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    
+        var mainVideo = document.getElementById("mainVideo");
+    
+        function changeVideo(videoPath, episodeTitle, element) {
+            mainVideo.src = videoPath;
+            mainVideo.load();
+            mainVideo.play();
+    
+            var allImgOverlays = document.querySelectorAll(".img-overlay");
+            allImgOverlays.forEach(imgOverlay => imgOverlay.classList.remove("selected"));
+    
+            element.classList.add("selected");
+    
+            document.getElementById("episodeTitle").innerHTML = `<h2>${episodeTitle}</h2>`;
+        }
+
+        function backtoseasons(){
+            window.location.href = "ds_watchnow.html";
+        }
+    </script>
+    
+
+</html>
+
+</body>
+</html>

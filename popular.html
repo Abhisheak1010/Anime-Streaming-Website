@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular</title>
+    <link rel="stylesheet" href="popular.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  
+/>
+
+</head>
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="aniweb.html">Home</a>
+            <a href="popular.html" style="color: #ff4500;">All</a>
+            <a href="new.html">New</a>
+            <a href="movies.html">Movies</a>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+    
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide" style="background-image: url(images/demon1.jpg);">
+    <button id="btn1" onclick="syno1()">Synopsis</button>
+    <button id="btn2" onclick="watch1()">Watch Now</button>
+    </div>
+    <div class="swiper-slide"  style="background-image: url(images/jjk01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/aot01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/dn01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/cote01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/fate01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/opm01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/bluelock01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/csm01.webp);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+ <!-- Slider main container -->
+ <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide" style="background-image: url(images/demon1.jpg);">
+    <button id="btn1" onclick="syno1()">Synopsis</button>
+    <button id="btn2" onclick="watch1()">Watch Now</button>
+    </div>
+    <div class="swiper-slide"  style="background-image: url(images/jjk01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/aot01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/dn01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/cote01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/fate01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/opm01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/bluelock01.jpg);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+    <div class="swiper-slide" style="background-image: url(images/csm01.webp);">
+        <button id="btn1">Synopsis</button>
+        <button id="btn2">Watch Now</button>
+    </div>
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+
+
+
+
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+<script>
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  slidesPerView: 3,
+      spaceBetween: 20,
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+<script>
+  function syno1()
+{
+    alert(" A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.")
+}
+
+function watch1()
+{
+    window.location.href = "ds_watchnow.html";
+}
+
+//  Scroll to top 
+
+document.addEventListener("DOMContentLoaded", function () {
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", function () {
+        // Show button when scrolling down
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    });
+});
+
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+function scrollToTop() {
+    // Scroll to the top smoothly
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+<footer>
+    <h3>all copyrights reserved @ abhisheak</h3>
+</footer>
+
+</html>

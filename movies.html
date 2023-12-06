@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="aniweb.html">Home</a>
+            <a href="all.html">All</a>
+            <a href="new.html">New</a>
+            <a href="#"  style="color: #ff4500;">Movies</a>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+
+     <!-- Scroll to top button -->
+     <button id="scrollToTopBtn" onclick="scrollToTop()"><i class='bx bx-arrow-to-top'></i></button>
+
+    <div class="main-container">
+        <div class="mv-heading">
+            <h2 style="color: #ff4500; font-size: 26px;">Browse Movies</h2>
+        </div>
+
+
+        <div class="sub-container1">
+             <div class="img-container">
+                <img src="images/your name2.jpg">
+             </div>
+             <div class="descri">
+                <h1>Your Name</h1>
+                <h5 id="original-title">Original title: Kimi no na wa</h5>
+                <h5 id="year-line">2016 . TV-PG . 1h 46 min</h5>
+                <h6 id="imbd">IMDB : 8.4/10</h6>
+                <p id="des">Mitsuha is the daughter of the mayor of a small mountain town. She's a straightforward high school girl who lives with her sister and her grandmother and has no qualms about letting it be known that she's uninterested in Shinto rituals or helping her father's electoral campaign. Instead she dreams of leaving the boring town and trying her luck in Tokyo. Taki is a high school boy in Tokyo who works part-time in an Italian restaurant and aspires to become an architect or an artist. Every night he has a strange dream where he becomes...a high school girl in a small mountain town.</p>
+                <button id="btnsubmit1" onclick="your_name()">Watch Now</button> 
+            </div>
+        </div>
+
+    
+      <div class="sub-container2">
+             <div class="descri2">
+                <h1>I Want to Eat Your Pancreas</h1>
+                <h5 id="original-title2">Original title: Kimi no suizô o tabetai</h5>
+                <h5 id="year-line2">2018 . TV-PG . 1h 49 min</h5>
+                <h6 id="imbd2">IMDB : 8.0/10</h6>
+                <p id="des2">One day, "Me" - a highschooler - found a paperback in the hospital. The "Disease Coexistence Journal" was its title. It was a diary that "Me"'s classmate, Sakura Yamauchi, had written in secret. Inside, it was written that due to her pancreatic disease, her days were numbered. And thus, "Me" coincidentally went from Just-a-Classmate to a Secret-Knowing-Classmate. It was as if he were being drawn to her, who was his polar opposite. However, the world presented the girl that was already suffering from an illness with an equally cruel reality.</p>
+                <button id="btnsubmit2" onclick="eat_panc()">Watch Now</button> 
+            </div>
+            <div class="img-container2">
+                <img src="images/eat ur panc.jpg">
+             </div>
+        </div>
+
+      <div class="sub-container1">
+        <div class="img-container">
+           <img src="images/suzume.jpg">
+        </div>
+        <div class="descri">
+           <h1>Suzume</h1>
+           <h5 id="original-title">Original title: Suzume no Tojimari</h5>
+           <h5 id="year-line">2022 . PG . 2h 2 min</h5>
+           <h6 id="imbd">IMDB : 8.4/10</h6>
+           <p id="des">Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey "looking for doors." Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if "it" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's "journey of closing doors" begins.</p>
+           <button id="btnsubmit3" onclick="suzume()">Watch Now</button> 
+       </div>
+   </div>
+   
+   <div class="sub-container2">
+    <div class="descri2">
+       <h1>Weathering With You</h1>
+       <h5 id="original-title2">Original title: Tenki no ko</h5>
+       <h5 id="year-line2">2019 . PG-13 . 1h 52 min</h5>
+       <h6 id="imbd2">IMDB : 7.5/10</h6>
+       <p id="des2">Hodaka Morishima, a high schooler, escapes to Tokyo and encounters a mysterious girl, Hina Amano, with the ability to control the weather. Together, they start a business offering to clear the sky for special events. However, their success attracts unwanted attention, leading to a series of challenges. As the authorities close in, Hina's unique power comes at a cost, and the two find themselves entangled in a heart-wrenching dilemma. The story explores love, sacrifice, and the consequences of altering the natural order.The narrative weaves a captivating tale of youth, destiny, and the indomitable spirit to defy the forces of nature.</p>
+       <button id="btnsubmit4" onclick="weathering()">Watch Now</button> 
+   </div>
+   <div class="img-container2">
+       <img src="images/weathering with you.jpg">
+    </div>
+</div>
+
+  <div class="sub-container1">
+    <div class="img-container">
+       <img src="images/5 cm pe sec.jpg">
+    </div>
+    <div class="descri">
+       <h1>5 Centimeters Per Second</h1>
+       <h5 id="original-title">Original title: Byôsoku 5 senchimêtoru</h5>
+       <h5 id="year-line">2007 . TV-PG . 1h 3 min</h5>
+       <h6 id="imbd">IMDB : 7.5/10</h6>
+       <p id="des">A modern action adventure road story where a 17-year-old girl named Suzume helps a mysterious young man close doors from the other side that are releasing disasters all over in Japan.Suzume, a 17-year-old girl who lives in a quiet town in Kyushu, meets a young man on a journey "looking for doors." Suzume follows him to a dilapidated building in the mountains and finds a free-standing, undisturbed door as if "it" alone were saved from devastation. Suzume feels drawn by an invisible power and reaches out to the door. Soon, doors all over Japan start opening one after another. The doors that opened must be closed to shut out calamity that lies on the other side. The places she wanders into have a sky where all hours of the day seem to blend together. Beckoned by the mysterious doors, Suzume's "journey of closing doors" begins</p>
+       <button id="btnsubmit3" onclick="centi()">Watch Now</button>  
+   </div>
+  </div>
+
+  <div class="sub-container2">
+    <div class="descri2">
+       <h1>Jujutsu Kaisen 0</h1>
+       <h5 id="original-title2">Original title: Gekijouban Jujutsu Kaisen 0</h5>
+       <h5 id="year-line2">2021 . PG-13 . 1h 52 min</h5>
+       <h6 id="imbd2">IMDB : 7.8/10</h6>
+       <p id="des2">Yuuta Okkotsu is haunted. Ever since his childhood friend Rika died in a traffic accident, her ghost has stuck with him. But her spirit does not appear as the sweet girl Yuuta once knew. Instead, she manifests as a monstrous and powerful entity who fiercely protects him. Unable to control Rika's violent behavior, Yuuta is helpless to stop the bloodshed that follows from her brutal vengeance.As a result, when apprehended by "Jujutsu" sorcerers--the secret guardians of the world, trained to combat forces like Rika--Yuuta wishes to be completely isolated so that no one else can get hurt. Yet his apprehender, the master sorcerer Satoru Gojou, has different plans for him: he will join Jujutsu High School and learn to control Rika in order to help people.</p>
+       <button id="btnsubmit4" onclick="jjk0()">Watch Now</button> 
+   </div>
+   <div class="img-container2">
+       <img src="images/jjk 0.jpg">
+    </div>
+</div>
+
+   </div>
+</div>
+</body>
+
+<script>
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        window.addEventListener("scroll", function () {
+            // Show button when scrolling down
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        });
+    
+        function scrollToTop() {
+            // Scroll to the top smoothly
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function your_name(){
+            window.location.href = 'your_name_stream_page.html';
+        }
+
+        function eat_panc(){
+            window.location.href = 'eat_ur_pancreas_stream_page.html';
+        }
+
+        function suzume(){
+            window.location.href = 'suzume_stream_page.html';
+        }
+
+        function weathering(){
+            window.location.href = 'weathering_with_you_stream_page.html';
+        }
+
+        function centi(){
+            window.location.href = 'cm_per_sec_stream_page.html';
+        }
+
+        function jjk0(){
+            window.location.href = 'jjk_0_stream_page.html';
+        }
+</script>
+
+</html>
