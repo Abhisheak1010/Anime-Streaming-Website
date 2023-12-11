@@ -12,7 +12,7 @@
         <div id="menu-button">&#9776;</div>
         <div class="logo">Your Logo</div>
         <nav class="navbar">
-            <a href="aniweb.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="all.html">All</a>
             <a href="#" style="color: #ff4500;">New</a>
             <a href="movies.html">Movies</a>
@@ -87,7 +87,7 @@
              <div class="text-content">
                 <h3 id="anime-name">Oshi No Ko</h3>
                 <p id="anime-descri">In the entertainment industry, celebrities project idealized personas, shielding their true selves from the public. The Fans invest unwavering support . Sixteen-year-old pop idol Ai Hoshino takes a hiatus, causing concern. Born with extreme beauty and astonishing voice, Ai becomes very popular. Gorou Amemiya, a so called fan of Ai, dreams of meeting her. His wish comes true when Ai, who's is pregnant, visits his hospital. Promising to ensure a safe delivery, Amemiya wonders how this encounter will alter their connection.</p>
-                <button id="btnsubmit-oshi">Watch Now</button>
+                <button id="btnsubmit-oshi" onclick="availsoon()">Watch Now</button>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@
               <div class="text-content">
                 <h3 id="anime-name">Arknights: Perish in Frost</h3>
                 <p id="anime-descri">In a world plagued by Oripathy, a fatal crystallizing disease, pharmaceutical company Rhodes Island seeks a cure. Amidst the battle against the Reunion Movement, a terrorist organization advocating for the Infected, Rhodes Island forms an alliance with Lungmen. Amiya grapples with the aftermath of their encounter with Skullshatterer, while a reconnaissance squad explores an abandoned city, encountering an enigmatic phenomenon.</p>
-                <button id="btnsubmit">Watch Now</button>
+                <button id="btnsubmit"  onclick="availsoon()">Watch Now</button>
                </div> 
               </div>
             </div>
@@ -109,7 +109,7 @@
              <div class="text-content">
                 <h3 id="anime-name">Zom 100: Bucket List of the Dead</h3>
                 <p id="anime-descri">In a trash-filled apartment, 24-year-old Akira Tendou watches a zombie movie with lifeless, envious eyes. After spending three hard years at an exploitative corporation in Japan, his spirit is broken. But then one morning, all of a sudden, he stumbles upon his landlord eating lunch—which happens to be another tenant! The whole city's swarming with zombies, and even though he's running for his life, Akira has never felt more alive! Will he survive?!</p>
-                <button id="btnsubmit">Watch Now</button>
+                <button id="btnsubmit"  onclick="availsoon()">Watch Now</button>
                </div>
               </div>
             </div>
@@ -120,7 +120,7 @@
              <div class="text-content">
                 <h3 id="anime-name">NieR:Automata Ver1.1a</h3>
                 <p id="anime-descri">In a post-apocalyptic Earth infested with alien-engineered "Machine Lifeforms," humanity's desperate last stand propels them to the Moon. Relying on YoRHa, man-made androids, the fight to reclaim Earth unfolds. The YoRHa confronts hidden truths, pushing the unwavering warrior 2B to question her existence and the sacrifices required for humanity's survival. As the battle intensifies, the narrative delves into the complexity of identity and the profound costs borne in humanity's final struggle against its aliens.</p>
-                <button id="btnsubmit-nier">Watch Now</button>
+                <button id="btnsubmit-nier"  onclick="availsoon()">Watch Now</button>
                </div>
               </div>
             </div>  
@@ -157,6 +157,10 @@
         }
         function koutetsu(){
             window.location.href = "new_koutetsu_stream.html"; 
+        }
+
+        function availsoon(){
+          window.location.href = 'coming_soon.html';
         }
 </script>
 </html>

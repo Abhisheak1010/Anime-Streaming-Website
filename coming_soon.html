@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Cnnected</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<style>
+     body {
+        background: rgb(42 42 42);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+        background: rgba(0, 0, 0, 0.65);
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+      #menu-button{
+        font-size: 24px;
+        margin-right: 20px;
+    }
+  
+    .logo {
+        font-size: 24px;
+        padding: 12px;
+    }
+  
+    .navbar {
+        align-items: center;
+        text-align: center;
+        margin-left: 80px;
+        display: flex;
+        gap: 70px;
+        text-decoration: none;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .navbar a:hover {
+        text-decoration: none;
+        color: #ff4500;
+    }
+    
+    .search-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    
+    #search-bar {
+        border: none;
+        flex: 1;
+        border-left: 2px solid #ff4500;
+        outline: none;
+        background: transparent;
+        height: 45px;
+        padding: 12px;
+        border-radius: 30px;
+        color: #fff;
+        height: 15px;
+    }
+    
+    #search-submit {
+        border: none;
+        outline: none;
+        background: #ff4500;
+        color: #fff;
+        width: 80px;
+        height: 43px;
+        font-size: 16px;
+        cursor: pointer;
+       border-radius: 30px;
+    }
+
+    #search-submit:hover{
+        background-color: #fd7949;
+    }
+    
+  
+    #login-button {
+        background-color: #ff4500;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    #login-button:hover{
+        background-color: #fd7949;
+    }
+
+    h3{
+        color: #ff4500;
+        text-align: center;
+        margin-top: 200px;
+        font-size: 50px;
+    }
+    h6{
+        color: #fd7949;
+        text-align: center;
+        font-size: 35px
+    }
+</style>
+<body>
+    <header>
+        <div id="menu-button">&#9776;</div>
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="all.html">All</a>
+            <a href="#">Watch Now</a> 
+            <a href="new.html">New</a>
+            <a href="movies.html">Movies</a>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <button id="login-button">Login</button>
+    </header>
+
+    <h3>This content will be available soon...</h3>
+    <h6>Stay connected</h6>
+</body>
+</html>

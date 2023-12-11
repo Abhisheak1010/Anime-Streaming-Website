@@ -66,16 +66,16 @@
         padding: 12px;
         border-radius: 30px;
         color: #fff;
+        height: 35px;
     }
     
     #search-submit {
         border: none;
         outline: none;
-        /* padding: 12px; */
         background: #ff4500;
         color: #fff;
         width: 80px;
-        height: 43px;
+        height: 40px;
         font-size: 16px;
         cursor: pointer;
        border-radius: 30px;
@@ -93,6 +93,7 @@
         border: none;
         border-radius: 30px;
         cursor: pointer;
+        height: 40px;
     }
 
     #login-button:hover{
