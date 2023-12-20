@@ -139,6 +139,15 @@ nav a {
     display: flex;
 }
 
+.vidnextcnt{
+    margin-bottom: -34px;
+}
+
+.vidnextcnt h3{
+    color: #ff4500;
+    text-decoration: underline;
+}
+
 .epi-no-pt{
     width: 500px;
 }

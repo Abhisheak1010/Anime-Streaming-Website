@@ -10,7 +10,7 @@
 <body>
     <header>
         <div id="menu-button">&#9776;</div>
-        <div class="logo">Your Logo</div>
+        <div class="logo">ANIME <span>PARADISE</span></div>
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="all.html">All</a>
@@ -22,7 +22,6 @@
             <input type="text" id="search-bar" placeholder="Search...">
             <button id="search-submit"><i class='bx bx-search-alt-2'></i></button>
         </div>
-        <button id="login-button">Login</button>
     </header>
 
      <!-- Scroll to top button -->
@@ -45,15 +44,15 @@
             </div>
 
             <div class="inner-border">
-             <div class="c1-1">
-                 <img src="images/Koutetsu.Sangokushi1.jpg">
-              <div class="text-content">
-                <h3 id="anime-name">Koutetsu Sangokushi</h3>
-                <p id="anime-descri">The story takes place in the ancient era. In the old times, in a time of chaos and civil war, the Imperial Seal grants immense power to chosen warriors. Rikuson, reluctant heir to the guardians, seeks to recover the stolen Seal from Sonsaku. When Sonsaku is assassinated, Rikuson embarks on a journey to reclaim the Seal, carrying the will of Sonsaku and thus unraveling his destiny in a tale of epic battles, loss, and self-discovery.</p>
-                <button id="btnsubmit" onclick="koutetsu()">Watch Now</button>
-               </div> 
-              </div>
-            </div>
+                <div class="c1-1">
+                   <img src="images/oshi no ko1.png">
+                <div class="text-content">
+                   <h3 id="anime-name">Oshi No Ko</h3>
+                   <p id="anime-descri">Sixteen-year-old pop sensation Ai Hoshino, known for her beauty and incredible voice, takes a break, sparking concern among devoted fans. Gorou Amemiya, a dedicated admirer, fulfills his dream of meeting Ai when Ai, who is pregnant, visits his hospital. Committed to ensuring a safe delivery, contemplates how this unexpected encounter will reshape their mysterious connection in their next life.</p>
+                   <button id="btnsubmit-oshi" onclick="oshi()">Watch Now</button>
+                   </div>
+                 </div>
+               </div>
         
             <div class="inner-border">
              <div class="c1-1">
@@ -61,7 +60,7 @@
              <div class="text-content">
                 <h3 id="anime-name">Blue Lock</h3>
                 <p id="anime-descri">Yoichi Isagi, a high school soccer player, who wants to become the best football player in the world, faces regret for a split-second decision that cost his team a nationals spot. Invited to the controversial Blue Lock project by the Japan Football Union, Isagi competes against 299 U-18 strikers to become the nation's star player. Despite ethical concerns, he strives ruthlessly to reach the top, driven by a desire for redemption and success.</p>
-                <button id="btnsubmit">Watch Now</button>
+                <button id="btnsubmit" onclick="blue()">Watch Now</button>
                </div>
               </div>
             </div>
@@ -72,7 +71,7 @@
              <div class="text-content">
                 <h3 id="anime-name">Undead Unluck</h3>
                 <p id="anime-descri">Fuuko Izumo, plagued by a decade-long curse causing misfortune to those around her, contemplates suicide after concluding her favorite manga. However, a strange man, Andy, touches her, revealing his immortality. United by a shared desire for death, Fuuko and Andy form an unconventional alliance. Yet, a shadowy organization seeks to exploit their unique abilities, adding a layer of mystery to their journey.</p>
-                <button id="btnsubmit">Watch Now</button>
+                <button id="btnsubmit" onclick="availsoon()">Watch Now</button>
                </div>
               </div>
             </div>  
@@ -82,15 +81,15 @@
         <!-- ROW 2 STARTS -->
         <div class="sub-container1">
             <div class="inner-border">
-             <div class="c1-1">
-                <img src="images/oshi no ko1.png">
-             <div class="text-content">
-                <h3 id="anime-name">Oshi No Ko</h3>
-                <p id="anime-descri">In the entertainment industry, celebrities project idealized personas, shielding their true selves from the public. The Fans invest unwavering support . Sixteen-year-old pop idol Ai Hoshino takes a hiatus, causing concern. Born with extreme beauty and astonishing voice, Ai becomes very popular. Gorou Amemiya, a so called fan of Ai, dreams of meeting her. His wish comes true when Ai, who's is pregnant, visits his hospital. Promising to ensure a safe delivery, Amemiya wonders how this encounter will alter their connection.</p>
-                <button id="btnsubmit-oshi" onclick="availsoon()">Watch Now</button>
-                </div>
-              </div>
-            </div>
+                <div class="c1-1">
+                    <img src="images/Koutetsu.Sangokushi1.jpg">
+                 <div class="text-content">
+                   <h3 id="anime-name">Koutetsu Sangokushi</h3>
+                   <p id="anime-descri">In an era dominated by war and strife, Rikuson Hakugen reluctantly enters the stage as the guardian of the stolen Imperial Seal. Guided by his mentor, Koumei Shoukatsuryou, Rikuson pledges allegiance to Sonsaku Sonken to unravel the Seal's destiny. However, tragedy strikes as Sonsaku falls, and the Imperial Seal is lost. Rikuson, accompanied by loyal friends, embarks on a quest to reclaim the Seal, unveiling his own destiny amidst the chaos of battle and honor.</p>
+                   <button id="btnsubmit" onclick="availsoon()" style="margin-top: 13px;">Watch Now</button>
+                  </div> 
+                 </div>
+               </div>
 
             <div class="inner-border">
              <div class="c1-1">
@@ -155,10 +154,14 @@
         function kingdoms(){
             window.location.href = "new_kingdoms_ruin_stream.html"; 
         }
-        function koutetsu(){
-            window.location.href = "new_koutetsu_stream.html"; 
+        function oshi(){
+            window.location.href = "new_oshi_stream.html"; 
         }
 
+        function blue(){
+          window.location.href = 'new_blue_lock_stream.html';
+        }
+        
         function availsoon(){
           window.location.href = 'coming_soon.html';
         }

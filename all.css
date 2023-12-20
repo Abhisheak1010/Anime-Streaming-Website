@@ -26,6 +26,12 @@ header {
     padding: 12px;
 }
 
+.logo span{
+    font-size: 24px;
+    padding: 12px;
+    color: #ff4500;
+}
+
 .navbar {
     align-items: center;
     text-align: center;
